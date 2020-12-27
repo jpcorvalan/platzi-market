@@ -16,7 +16,8 @@ public class HolaMundoController {
     @GetMapping("/test")        // Este método se ejecutará bajo una petición get, y en el navegador funcionará
                                 // de la misma manera que RequestMapping. Ej: mipag.com/saludar/test
     public String saludar(){
-        return "Class and method for testing - Nunca pares de aprender";
+        return "Class and method for testing - Nunca pares de aprender - " +
+                "Spring es un framework muy útil!";
     }
 
 }
