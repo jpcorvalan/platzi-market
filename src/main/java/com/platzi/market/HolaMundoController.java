@@ -1,2 +1,4 @@
-package com.platzi.market;public class HolaMundoController {
+package com.platzi.market;
+
+public class HolaMundoController {
 }
